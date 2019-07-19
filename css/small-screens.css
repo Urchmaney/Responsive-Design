@@ -1,0 +1,30 @@
+  #section-1 article {
+    height: 30vh;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+
+  .new-image {
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .news-title {
+    font-size: 14px;
+  }
+
+  .news-time {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  #section-3 .article-container {
+    margin-top: 20px;
+  }
+
+  #section-3>ul li {
+    margin-top: 10px;
+  }
