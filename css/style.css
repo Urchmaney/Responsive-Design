@@ -247,28 +247,11 @@
 #section-4 .section4-content p:nth-child(3) {
     font-size: 14px;
     font-weight: bold;
-<<<<<<< HEAD
+
     margin-top:5px;
  }
 
-
- #section-5 article img{
-     width: 270px;
-     height:202px;
- }
-
-
- #section-5{
-    width: 1192px;
-    margin: auto;
-    margin-top: 30px;
-    position: relative;
-}
-=======
-    margin-top: 5px;
-}
-
-#section-4 ul {
+ #section-4 ul {
     list-style: none;
     position: relative;
     font-size: 13px;
@@ -293,7 +276,34 @@
 
 }
 
->>>>>>> development
+
+
+ #section-5 article img{
+     width: 100%;
+     height:202px;
+ }
+
+
+ #section-5{
+    width: 1192px;
+    margin: auto;
+    max-width: 90%;
+    margin-top: 30px;
+    position: relative;
+}
+
+#section-5 article p:nth-of-type(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#section-5 article p:nth-of-type(2){
+    font-size: 16px;
+    color:#555;
+}
+
+
+
 .clear {
     clear: both;
 }
