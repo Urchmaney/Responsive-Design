@@ -261,6 +261,20 @@
     font-weight: bold;
     margin-top:5px;
  }
+
+
+ #section-5 article img{
+     width: 270px;
+     height:202px;
+ }
+
+
+ #section-5{
+    width: 1192px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
 .clear {
     clear: both;
 }
