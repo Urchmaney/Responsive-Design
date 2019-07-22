@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header >
+    <header>
         <nav id="navbar-1">
             <ul>
                 <li>News
@@ -29,9 +29,12 @@
             </ul>
         </nav>
         <nav id="navbar-2">
-                <div id="navbar-logo">
-                    <img src="./images/tnw.svg">
-                </div>
+            <div id="navbar-logo">
+                <img src="./images/tnw.svg" onmouseover="showNavBar1()" onmouseleave="hideNavBar1()">
+            </div>
+            <a href="#">
+                    <i class="fas fa-search"></i>
+            </a>
             <ul>
                 <li>Latest
                 <li>Hard Fork
@@ -39,6 +42,7 @@
                 <li>Fundamentals
                 <li>Work 2030
             </ul>
+
         </nav>
     </header>
     <main>
@@ -857,17 +861,30 @@
     <script>
         window.onscroll = function () { myFunction() };
         var header = document.getElementById("navbar-2");
+        var navbar1=document.getElementById("navbar-1");
         var sticky = header.offsetTop;
-        var navbarLogo=document.getElementById("navbar-logo");
+        var navbarLogo = document.getElementById("navbar-logo");
         function myFunction() {
             if (window.pageYOffset > sticky) {
                 header.classList.add("sticky");
-                navbarLogo.style.display="flex";
+                navbarLogo.style.display = "flex";
+                // navbar1.classList.add("navbar-1-sticky");
             } else {
                 header.classList.remove("sticky");
-                navbarLogo.style.display="none";
+                navbarLogo.style.display = "none";
+                 navbar1.classList.remove("navbar-1-sticky");
             }
         }
+
+      function showNavBar1(){
+        var navbar1=document.getElementById("navbar-1");
+        navbar1.classList.add("navbar-1-sticky");
+      }
+
+      function hideNavBar1(){
+        var navbar1=document.getElementById("navbar-1");
+        navbar1.classList.remove("navbar-1-sticky");
+      }
     </script>
 
 </body>

@@ -484,8 +484,53 @@ body{
     display: flex;
     align-items: center;
     display: none;
+    width:106px;
 }
 #navbar-2 div img{
     height: 15px;
     width: 100%;
 }
+
+#navbar-2 a{
+    display: flex;
+    float:right;
+    background-color: #fff;
+    align-items: center;
+    height: 48px;
+    text-decoration: none;
+    padding-right:15px;
+    padding-left:15px;   
+    border-right:1px solid #eeeeee;
+    color:gray;
+    transform: rotateY(180deg);
+}
+
+
+.navbar-1-sticky{
+    position:fixed;  
+    top:48px;
+    left:0px;
+}
+
+
+.navbar-1-sticky ul{
+    display: flex;
+   flex-direction: column; 
+   height:100px;
+   text-align: center;
+   z-index: 10;
+   
+}
+
+
+.navbar-1-sticky li{
+    box-sizing: border-box;
+    padding-top:10px;
+    display:block;
+    width:106px;
+    padding-left:0px;
+    background-color: black;
+    
+}
+
+
