@@ -60,3 +60,18 @@
 
 
   
+
+#navbar-1 {
+  display: none;
+}
+
+#navbar-2 ul li{
+  display: none;
+}
+
+#navbar-logo{
+  display: flex;
+}
+#navbar-2 a:first-of-type {
+  display: flex;
+}

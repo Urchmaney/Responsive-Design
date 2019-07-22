@@ -510,6 +510,7 @@ body{
     position:fixed;  
     top:48px;
     left:0px;
+    z-index: 10;
 }
 
 
@@ -518,8 +519,6 @@ body{
    flex-direction: column; 
    height:100px;
    text-align: center;
-   z-index: 10;
-   
 }
 
 
@@ -530,7 +529,19 @@ body{
     width:106px;
     padding-left:0px;
     background-color: black;
-    
 }
 
 
+#navbar-2 a:first-of-type {
+    display: none;
+}
+
+#navbar-3{
+    background-image: linear-gradient( to bottom right , #da1377, #ff4422 ) ;
+    height: 100%;
+    width:100%;
+    z-index: 11;
+    position: fixed;
+    top:0px;
+    display: none;
+}
