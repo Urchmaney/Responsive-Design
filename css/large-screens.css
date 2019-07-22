@@ -37,3 +37,10 @@
   column-gap: 10px;
   row-gap: 10px;
 }
+
+#section-5{
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  column-gap: 10px;
+  row-gap: 10px;
+}

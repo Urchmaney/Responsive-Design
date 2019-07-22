@@ -28,3 +28,35 @@
   #section-3>ul li {
     margin-top: 10px;
   }
+
+  #section-5 article{
+    position: relative;
+    margin-top:10px;
+    height:80px;
+    
+  }
+
+  #section-5 article p{
+    
+    margin-left:90px;
+    
+  }
+
+  #section-5 article img{
+    width:75px;
+    height: 75px;
+    position: absolute;
+    top:0px;
+    left:0px;
+
+    
+  }
+
+
+  #section-5 article div{
+    
+    display:none;
+}
+
+
+  
