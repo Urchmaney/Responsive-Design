@@ -17,8 +17,29 @@
 </head>
 
 <body>
-    <header>
-
+    <header >
+        <nav id="navbar-1">
+            <ul>
+                <li>News
+                <li>Events ▾
+                <li>Business ▾
+                <li>AMAs
+                <li>Spaces
+                <li>Terms & Conditions
+            </ul>
+        </nav>
+        <nav id="navbar-2">
+                <div id="navbar-logo">
+                    <img src="./images/tnw.svg">
+                </div>
+            <ul>
+                <li>Latest
+                <li>Hard Fork
+                <li>Plugged
+                <li>Fundamentals
+                <li>Work 2030
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="section-1">
@@ -807,31 +828,48 @@
     </main>
     <footer id="footer">
         <div>
-                <ul class="footerlist">
-                        <li><i class="fab fa-facebook-square"></i>
-                        <li><i class="fab fa-twitter"></i>
-                        <li><i class="fab fa-youtube-square"></i>
-                        <li><i class="fas fa-camera-retro"></i>
-                        <li><i class="fab fa-pinterest-p"></i>
-                        <li><i class="fas fa-rss"></i>
-            
-                        <li><i class="far fa-envelope"></i>
-            
-                    </ul>
-                    <ul class="footerlist">
-                        <li>EVENTS
-                        <li> ABOUT
-                        <li>TEAM
-                        <li>ADVERTISE
-                        <li>JOBS
-                        <li>CONTACT
-                    </ul>
+            <ul class="footerlist">
+                <li><i class="fab fa-facebook-square"></i>
+                <li><i class="fab fa-twitter"></i>
+                <li><i class="fab fa-youtube-square"></i>
+                <li><i class="fas fa-camera-retro"></i>
+                <li><i class="fab fa-pinterest-p"></i>
+                <li><i class="fas fa-rss"></i>
+
+                <li><i class="far fa-envelope"></i>
+
+            </ul>
+            <ul class="footerlist">
+                <li>EVENTS
+                <li> ABOUT
+                <li>TEAM
+                <li>ADVERTISE
+                <li>JOBS
+                <li>CONTACT
+            </ul>
         </div>
-       
+
         <p>
-              <img  src="images/tnw.svg"  class="footer-img" height="25" width="40"  alt="TNW Logo"> © 2006–2019 The Next Web B.V. Made with <b style="color:red">♥</b> in Amsterdam. Powered by  StackPath
+            <img src="images/tnw.svg" class="footer-img" height="25" width="40" alt="TNW Logo"> © 2006–2019 The Next Web
+            B.V. Made with <b style="color:red">♥</b> in Amsterdam. Powered by StackPath
         </p>
     </footer>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("navbar-2");
+        var sticky = header.offsetTop;
+        var navbarLogo=document.getElementById("navbar-logo");
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+                navbarLogo.style.display="flex";
+            } else {
+                header.classList.remove("sticky");
+                navbarLogo.style.display="none";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
