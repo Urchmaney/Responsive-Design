@@ -28,24 +28,24 @@
   column-gap: 10px;
 }
 
-#section-3>div {
+#section-3 > div {
   display: grid;
   grid-template-columns: repeat(3, 33%);
   grid-template-rows: 1fr;
   column-gap: 10px;
 }
 
-#section-3>div article:nth-child(4) {
+#section-3 > div article:nth-child(4) {
   display: none;
 }
 
-#section-3>ul {
+#section-3 > ul {
   display: flex;
   margin-top: 15px;
   margin-bottom: 20px;
 }
 
-#section-3>ul li:nth-child(2) {
+#section-3 > ul li:nth-child(2) {
   border-left: 1px solid #f64221;
   border-right: 1px solid #f64221;
   padding-left: 10px;

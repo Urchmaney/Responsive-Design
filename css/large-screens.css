@@ -18,22 +18,22 @@
   font-weight: bolder;
 }
 
-#section-3>div {
+#section-3 > div {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   column-gap: 10px;
 }
 
-#section-3>div article:nth-child(4) {
+#section-3 > div article:nth-child(4) {
   display: block;
 }
 
-#section-3>ul {
+#section-3 > ul {
   position: absolute;
   right: 0;
   top: 0;
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #section-4 {

@@ -25,7 +25,7 @@
   margin-top: 20px;
 }
 
-#section-3>ul li {
+#section-3 > ul li {
   margin-top: 10px;
 }
 
@@ -43,8 +43,8 @@
   width: 75px;
   height: 75px;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 
 #section-5 article div {
@@ -74,10 +74,10 @@
   height: 50px;
   position: fixed;
   width: 100%;
-  top: 0px;
+  top: 0;
   box-sizing: border-box;
-  left: 0px;
-  margin-top: 0px;
+  left: 0;
+  margin-top: 0;
   border-bottom: 1px solid hsla(0, 0%, 100%, .15);
   color: white;
   background-image: linear-gradient( to bottom right, #c09, #f42 150%);
@@ -93,7 +93,7 @@
   font-size: 30px;
 }
 
-#navbar-3>ul:nth-of-type(1) {
+#navbar-3 > ul:nth-of-type(1) {
   list-style: none;
   padding-left: 10px;
   padding-right: 10px;
@@ -103,7 +103,7 @@
   border-bottom: 1px solid hsla(0, 0%, 100%, .15);
 }
 
-#navbar-3>ul:nth-of-type(1) li {
+#navbar-3 > ul:nth-of-type(1) li {
   display: inline-block;
   padding: 15px;
   color: white;
