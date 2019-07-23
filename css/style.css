@@ -7,16 +7,78 @@
   margin: 0;
 }
 
-.blue {
-  background-color: blue;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
-.red {
-  background-color: red;
+.navbar-1-sticky {
+  position: fixed;
+  top: 48px;
+  left: 0;
+  z-index: 10;
 }
 
-.green {
-  background-color: green;
+.navbar-1-sticky ul {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  text-align: center;
+}
+
+.navbar-1-sticky li {
+  box-sizing: border-box;
+  padding-top: 10px;
+  display: block;
+  width: 106px;
+  padding-left: 0;
+  background-color: black;
+}
+
+
+#navbar-2 div {
+  background-image: linear-gradient( to bottom right, #da1377, #f42);
+  float: left;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  display: none;
+  width: 106px;
+}
+
+#navbar-2 div img {
+  height: 15px;
+  width: 100%;
+}
+
+#navbar-2 a {
+  display: flex;
+  float: right;
+  background-color: #fff;
+  align-items: center;
+  height: 48px;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid #eee;
+  color: gray;
+  transform: rotateY(180deg);
+}
+
+#navbar-2 a:first-of-type {
+  display: none;
+}
+
+#navbar-3 {
+  background-image: linear-gradient( to bottom right, #da1377, #f42);
+  height: 100%;
+  width: 100%;
+  z-index: 11;
+  position: fixed;
+  top: 0;
+  display: none;
 }
 
 #section-1 article {
@@ -438,75 +500,3 @@ body {
   background-color: #f1f1f1;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-}
-
-#navbar-2 div {
-  background-image: linear-gradient( to bottom right, #da1377, #f42);
-  float: left;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  display: none;
-  width: 106px;
-}
-
-#navbar-2 div img {
-  height: 15px;
-  width: 100%;
-}
-
-#navbar-2 a {
-  display: flex;
-  float: right;
-  background-color: #fff;
-  align-items: center;
-  height: 48px;
-  text-decoration: none;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-right: 1px solid #eee;
-  color: gray;
-  transform: rotateY(180deg);
-}
-
-.navbar-1-sticky {
-  position: fixed;
-  top: 48px;
-  left: 0;
-  z-index: 10;
-}
-
-.navbar-1-sticky ul {
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-  text-align: center;
-}
-
-.navbar-1-sticky li {
-  box-sizing: border-box;
-  padding-top: 10px;
-  display: block;
-  width: 106px;
-  padding-left: 0;
-  background-color: black;
-}
-
-#navbar-2 a:first-of-type {
-  display: none;
-}
-
-#navbar-3 {
-  background-image: linear-gradient( to bottom right, #da1377, #f42);
-  height: 100%;
-  width: 100%;
-  z-index: 11;
-  position: fixed;
-  top: 0;
-  display: none;
-}
