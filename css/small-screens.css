@@ -83,11 +83,10 @@
   box-sizing: border-box;
   left: 0;
   margin-top: 0;
-  border-bottom: 1px solid hsla( 0, 0%, 100%, .15);
+  border-bottom: 1px solid hsla( 0, 0%, 100%, 0.15);
   color: white;
   background-image: linear-gradient( to bottom right, #c09, #f42 150%);
 }
-
 
 #navbar3-close i {
   font-size: 30px;
@@ -100,7 +99,7 @@
   padding-top: 10px;
   margin-top: 50px;
   text-align: center;
-  border-bottom: 1px solid hsla( 0, 0%, 100%, .15);
+  border-bottom: 1px solid hsla( 0, 0%, 100%, 0.15);
 }
 
 #navbar-3 > ul:nth-of-type(1) li {

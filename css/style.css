@@ -37,9 +37,8 @@
   background-color: black;
 }
 
-
 #navbar-2 div {
-  background-image: linear-gradient( to bottom right, #da1377, #f42);
+  background-image: linear-gradient(to bottom right, #da1377, #f42);
   float: left;
   height: 48px;
   display: flex;
@@ -72,7 +71,7 @@
 }
 
 #navbar-3 {
-  background-image: linear-gradient( to bottom right, #da1377, #f42);
+  background-image: linear-gradient(to bottom right, #da1377, #f42);
   height: 100%;
   width: 100%;
   z-index: 11;
