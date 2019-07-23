@@ -125,6 +125,10 @@
   row-gap: 15px;
 }
 
+#navbar-3-sublink ul li {
+  margin-bottom: 14px;
+}
+
 #navbar-3-sublink ul:nth-of-type(1) {
   grid-area: item1;
 }
@@ -140,10 +144,6 @@
 #navbar-3-sublink ul li:first-child {
   font-weight: bold;
   color: white;
-}
-
-#navbar-3-sublink ul li {
-  margin-bottom: 14px;
 }
 
 #navbar-3 {
