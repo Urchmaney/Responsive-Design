@@ -80,13 +80,15 @@
   margin-top: 0px;
   border-bottom: 1px solid hsla(0, 0%, 100%, .15);
   color: white;
-  background-image: linear-gradient( to bottom right, #c09,#f42 150%);
+  background-image: linear-gradient( to bottom right, #c09, #f42 150%);
 }
-#navbar-3 a{
+
+#navbar-3 a {
   text-decoration: inherit;
-  color:inherit;
+  color: inherit;
   font-size: inherit;
 }
+
 #navbar3-close i {
   font-size: 30px;
 }
@@ -147,4 +149,3 @@
 #navbar-3 {
   overflow: scroll;
 }
-
