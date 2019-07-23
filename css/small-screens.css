@@ -56,22 +56,61 @@
   #section-5 article div{
     
     display:none;
-}
+  }
 
 
   
 
-#navbar-1 {
-  display: none;
-}
+  #navbar-1 {
+    display: none;
+  }
 
-#navbar-2 ul li{
-  display: none;
-}
+  #navbar-2 ul li{
+    display: none;
+  }
 
-#navbar-logo{
-  display: flex;
-}
-#navbar-2 a:first-of-type {
-  display: flex;
-}
+  #navbar-logo{
+    display: flex;
+  }
+  #navbar-2 a:first-of-type {
+    display: flex;
+  }
+
+
+  #navbar3-close {
+    text-align:right;
+    padding-right:10px;
+    padding-top:10px;
+    height:50px;
+    position: fixed;
+    width:100%;
+    top:0px;
+    box-sizing: border-box;
+    left:0px;
+    margin-top:0px;
+    border-bottom: 1px solid hsla(0,0%,100%,.15);
+    color:white;
+    
+  }
+
+  #navbar3-close i{
+    font-size:30px;
+  }
+  #navbar-3 ul:nth-of-type(1){
+    list-style: none;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    margin-top:50px;
+    text-align: center;
+    border-bottom: 1px solid hsla(0,0%,100%,.15);
+
+  }
+
+  #navbar-3 ul:nth-of-type(1) li{
+    display:inline-block;
+    padding:15px;
+
+    color:white;
+
+  }
