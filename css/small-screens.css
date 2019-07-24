@@ -1,0 +1,152 @@
+#section-1 article {
+  height: 30vh;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.new-image {
+  height: 75px;
+  width: 75px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.news-title {
+  font-size: 14px;
+}
+
+.news-time {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#section-3 .article-container {
+  margin-top: 20px;
+}
+
+#section-3 > ul li {
+  margin-top: 10px;
+}
+
+#section-5 article {
+  position: relative;
+  margin-top: 10px;
+  height: 80px;
+}
+
+#section-5 article p {
+  margin-left: 90px;
+}
+
+#section-5 article img {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#section-5 article div {
+  display: none;
+}
+
+#navbar-1 {
+  display: none;
+}
+
+#navbar-3 {
+  overflow: scroll;
+}
+
+#navbar-2 ul li {
+  display: none;
+}
+
+#navbar-logo {
+  display: flex;
+}
+
+#navbar-3 a {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+#navbar-2 a:first-of-type {
+  display: flex;
+}
+
+#navbar3-close {
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin-top: 0;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.15);
+  color: white;
+  background-image: linear-gradient(to bottom right, #c09, #f42 150%);
+}
+
+#navbar3-close i {
+  font-size: 30px;
+}
+
+#navbar-3-sublink {
+  display: grid;
+  margin: auto;
+  margin-top: 25px;
+  width: 90%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "item1 item2" ". item3";
+  row-gap: 15px;
+}
+
+#navbar-3-sublink ul li {
+  margin-bottom: 14px;
+}
+
+#navbar-3-sublink ul {
+  list-style: none;
+  color: rgba(100%, 100%, 100%, 0.6);
+}
+
+#navbar-3 > ul:nth-of-type(1) {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 1px solid hsla(0, 0, 100%, 0.15);
+}
+
+#navbar-3 > ul:nth-of-type(1) li {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+}
+
+#navbar-3-sublink ul:nth-of-type(1) {
+  grid-area: item1;
+}
+
+#navbar-3-sublink ul:nth-of-type(2) {
+  grid-area: item2;
+}
+
+#navbar-3-sublink ul:nth-of-type(3) {
+  grid-area: item3;
+}
+
+#navbar-3-sublink ul li:first-child {
+  font-weight: bold;
+  color: white;
+}
+
